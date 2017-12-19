@@ -12,6 +12,11 @@ body {
   
    /* gradient style for background if browser supports it */
    background-image: linear-gradient(to right, #00212e, aqua);
+
+  /*font style for body elements */
+  font-family: "Montserrat", sans-serif;
+  color: #00212e;
+  font-weight: bold;
 }
 
 .quote-container {
@@ -25,17 +30,11 @@ body {
 }
 
 .quoteText {
-  font-family: "Montserrat", sans-serif;
-  color: #00212e;
-  font-weight: bold;
   font-size: 25px;
   text-align: left;
 }
 
 .quoteAuthor {
-  font-family: "Montserrat", sans-serif;
-  color: #00212e;
-  font-weight: bold;
   font-size: 20px;
   display: block;
   float: right;
