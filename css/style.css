@@ -48,11 +48,11 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-left: 160px;
-  
 }
 
 .get-quote {
   margin-top: 3%;
+  cursor: pointer;
 }
 
 .get-quote: hover{
@@ -63,4 +63,5 @@ body {
 
 .send-tweet {
   margin-top: 3%;
+  cursor: pointer;
 }
