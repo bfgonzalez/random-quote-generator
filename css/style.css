@@ -18,10 +18,10 @@ body {
   background-color: #e3f2fd;
   width: 550px;
   height: auto;
-  position: absolute;
-  display: table;
+  position: relative;
+  display: block;
   padding: 40px 50px;
-  margin: 5% 25% 10% 29%;
+  margin: auto;
 }
 
 .quoteText {
