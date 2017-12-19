@@ -7,17 +7,21 @@ h1 {
 }
 
 body {
-  background-color: #00212e;
+   /*background color if browser doesn't super gradient */
+   background-color: #00212e;
+  
+   /* gradient style for background if browser supports it */
+   background-image: linear-gradient(to right, #00212e, aqua)
 }
 
 .quote-container {
   background-color: #e3f2fd;
   width: 550px;
   height: auto;
-  position: absolute;
-  display: table;
+  position: relative;
+  display: block;
   padding: 40px 50px;
-  margin: 5% 25% 10% 29%;
+  margin: auto;
 }
 
 .quoteText {
