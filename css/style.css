@@ -11,7 +11,7 @@ body {
    background-color: #00212e;
   
    /* gradient style for background if browser supports it */
-   background-image: linear-gradient(to right, #00212e, aqua);
+   background-image: linear-gradient(to right, #26A69A, #303F9F);
 
   /*font style for body elements */
   font-family: "Montserrat", sans-serif;
