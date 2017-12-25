@@ -31,11 +31,13 @@ body {
 
 .quoteText {
   font-size: 25px;
+  color: #263238;
   text-align: left;
 }
 
 .quoteAuthor {
   font-size: 20px;
+  color: #263238;
   display: block;
   float: right;
   margin-top: 2%;
