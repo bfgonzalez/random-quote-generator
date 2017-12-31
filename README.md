@@ -1,1 +1,1 @@
-A simple random quote generator made using HTML, CSS, Javascript, jQuery, and a random quote API. This project was made in partial fulfillment of the requirements of FreeCodeCamp's Frontend Web Development Curriculum. This random quote generator makes use of an API to get the quotes.
+A simple random quote generator made using HTML, CSS, JavaScript, jQuery, and a random quote API. This project was made in partial fulfillment of the requirements of FreeCodeCamp's Frontend Web Development Curriculum. This random quote generator makes use of an API to get the quotes.
