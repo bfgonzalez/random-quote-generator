@@ -1,50 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Random Quote Generator</title>
-  
-  <!-- link to font awesom 5 icons -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <head>
+    <meta charset="UTF-8">
+    <title>Random Quote Generator</title>
 
-      <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:light" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
 
-  
-</head>
+  </head>
 
-<body>
-  <div class="container-fluid">
-  <!-- Links for fonts -->
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-
-
-  <!--  -->
-  <h1>  RANDOM QUOTE GENERATOR </h1>
-
-  <!-- Container for quote generator  -->
-  <div class="quote-container">
-
-    <div id="quote" class="quoteText">
-      <p id="quote"> All men by nature desire to know.</p> 
-    </div>
-    <div id="author" class="quoteAuthor">
-      <footer id="author">- Aristotle</footer>
-    </div>
-    <!-- buttons for twitter & get quote -->
-    <div class="buttons">
-      <a id="tweet" href="#" target="_blank"><i id ="twitter"class="fab fa-twitter fa-5x" aria-hidden="true"></i></a>
-      <a href="#" id="get-quote"><i class="fas fa-chevron-circle-right fa-5x" aria-hidden="true"></i></a>
+  <body>
+    <!--quote container and quote content-->
+    <div class="quote-container">
+      <div class="quote-text">
+        <p> All men by nature desire to know.</p>
+      </div>
+      <!--quote author-->
+      <div class="quote-author">
+        <p>- Aristotle</p>
+      </div>
+      <!-- buttons for tweet quote and get quote-->
+      <div class="buttons">
+        <a class="tweet" href="#" target="_blank"><i id ="twitter"class="fab fa-twitter fa-3x" aria-hidden="true"></i></a>
+        <a class="get-quote" href="#"><i class="fas fa-chevron-circle-right fa-3x" aria-hidden="true"></i></a>
+      </div>
     </div>
 
-  </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <footer>Made by <a href="https://github.com/bfgonzalez">Bianca Gonzalez</a></footer>
 
-    <script  src="js/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+      <script  src="js/index.js"></script>
 
-</body>
+  </body>
 </html>

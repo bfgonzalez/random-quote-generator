@@ -1,55 +1,43 @@
-h1 {
-  font-family: "Montserrat", sans-serif;
-  color: #e3f2fd;
-  font-size: 40px;
-  text-align: center;
-  font-weight: bold;
-}
-
 body {
-   /*background color if browser doesn't super gradient */
-   background-color: #00212e;
-  
-   /* gradient style for background if browser supports it */
-   background-image: linear-gradient(to right, #26A69A, #303F9F);
-
-  /*font style for body elements */
-  font-family: "Montserrat", sans-serif;
-  color: #00212e;
-  font-weight: bold;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .quote-container {
-  background-color: #e3f2fd;
-  width: 550px;
+  /* fallback background color is browser doesn't support gradient*/
+  background: #26A69A;
+  background-image: linear-gradient(to right, #26A69A, #303F9F);
+  width: 30rem;
   height: auto;
-  position: relative;
   display: block;
-  padding: 40px 50px;
-  margin: auto;
-}
-
-.quoteText {
-  font-size: 25px;
-  color: #263238;
-  text-align: left;
-}
-
-.quoteAuthor {
-  font-size: 20px;
-  color: #263238;
-  display: block;
-  float: right;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-right: 5%;
-}
-
-.buttons{
-  display: inline-block;
+  margin: 5rem auto;
   text-align: center;
-  margin-top: 20px;
-  margin-left: 160px;
+  padding: 4rem;
+}
+
+.quote-text {
+  width: 30rem;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0 0 1rem 0;
+  line-height: 2rem;
+}
+
+.quote-author {
+  font-size: 1.25rem;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  display: block;
+  margin: auto;
+  letter-spacing: 1rem;
+}
+
+.buttons a {
+  color: white;
 }
 
 .get-quote {
@@ -57,17 +45,17 @@ body {
   cursor: pointer;
 }
 
-.get-quote: hover{
-  opacity: 0.9;
-  background:#000;
-  color: #fff;
-}
-
 .send-tweet {
   margin-top: 3%;
   cursor: pointer;
-<<<<<<< HEAD
 }
-=======
+
+footer {
+  text-align: center;
+  color: grey;
 }
->>>>>>> 07f238e36e7561d42560c1dd1afff300d38f10b4
+
+footer a {
+  text-decoration: none;
+  color: #303F9F
+}
