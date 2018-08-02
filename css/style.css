@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #212121;
   font-family: "Roboto", sans-serif;
   color: white;
 }
@@ -52,10 +52,10 @@ body {
 
 footer {
   text-align: center;
-  color: grey;
+  color: white;
 }
 
 footer a {
   text-decoration: none;
-  color: #303F9F
+  color: #5f74fa
 }
